@@ -1,0 +1,111 @@
+2023-03-27 03:27:44,717 - io.netty.util.HashedWheelTimer -WARN - An exception was thrown by TimerTask.
+java.lang.IllegalStateException: cannot be started once stopped
+	at io.netty.util.HashedWheelTimer.start(HashedWheelTimer.java:338)
+	at io.netty.util.HashedWheelTimer.newTimeout(HashedWheelTimer.java:413)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool.scheduleNewIdleChannelDetector(DefaultChannelPool.java:95)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool.access$900(DefaultChannelPool.java:43)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool$IdleChannelDetector.run(DefaultChannelPool.java:378)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:744)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-03-27 12:58:50,824 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 12:58:50,870 - Failed Case -INFO - Test has passed.
+2023-03-27 17:25:50,349 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 17:25:51,930 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 17:25:53,488 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 17:25:55,370 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:25:57,482 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:25:57,557 - Failed Case -ERROR - Error occured.
+2023-03-27 17:27:00,678 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 17:27:02,081 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 17:27:03,663 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 17:27:05,375 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:27:07,571 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:27:07,648 - Failed Case -ERROR - Error occured.
+2023-03-27 17:27:54,421 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 17:27:55,856 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 17:27:57,395 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 17:27:59,221 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:28:01,338 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:28:01,406 - Failed Case -ERROR - Error occured.
+2023-03-27 17:30:16,567 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 17:30:17,978 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 17:30:19,586 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 17:30:21,290 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:30:23,306 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:30:23,387 - Failed Case -ERROR - Error occured.
+2023-03-27 17:33:11,787 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 17:33:13,250 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 17:33:15,886 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 17:33:17,444 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:33:20,077 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:33:20,147 - Failed Case -ERROR - Error occured.
+2023-03-27 17:37:18,965 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 17:39:11,255 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 17:39:13,184 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 17:39:14,718 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 17:39:16,465 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:39:18,980 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 17:39:19,063 - Failed Case -ERROR - Error occured.
+2023-03-27 18:03:15,875 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:03:17,767 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 18:03:19,280 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:03:19,288 - Failed Case -ERROR - Error occured.
+2023-03-27 18:25:16,495 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:25:17,976 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 18:25:19,483 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:25:19,492 - Failed Case -ERROR - Error occured.
+2023-03-27 18:26:35,172 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:26:36,600 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 18:26:38,113 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:26:38,121 - Failed Case -ERROR - Error occured.
+2023-03-27 18:27:19,904 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:27:36,138 - Failed Case -ERROR - WebDriver Exception
+2023-03-27 18:28:03,262 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:30:39,150 - Failed Case -ERROR - WebDriver Exception
+2023-03-27 18:30:42,173 - Failed Case -ERROR - WebDriver Exception
+2023-03-27 18:30:45,185 - Failed Case -ERROR - Error occured.
+2023-03-27 18:31:03,325 - Failed Case -ERROR - WebDriver Exception
+2023-03-27 18:31:06,347 - Failed Case -ERROR - WebDriver Exception
+2023-03-27 18:31:09,359 - Failed Case -ERROR - WebDriver Exception
+2023-03-27 18:31:12,373 - Failed Case -ERROR - Error occured.
+2023-03-27 18:31:42,442 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:31:43,893 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 18:31:45,407 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 18:31:49,411 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 18:31:51,287 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 18:31:51,362 - Failed Case -ERROR - Error occured.
+2023-03-27 18:41:19,232 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 18:41:20,611 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 18:41:22,188 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 18:41:23,907 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 18:41:26,073 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 18:41:26,143 - Failed Case -ERROR - Error occured.
+2023-03-27 19:22:47,920 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 19:22:50,356 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 19:22:51,919 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 19:22:51,951 - Failed Case -ERROR - Error occured.
+2023-03-27 19:38:30,239 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 19:38:31,679 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 19:38:33,188 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 19:38:33,195 - Failed Case -ERROR - Error occured.
+2023-03-27 19:39:15,132 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 19:39:16,703 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 19:39:18,281 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 19:39:20,022 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 19:39:22,862 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 19:39:22,956 - Failed Case -ERROR - Error occured.
+2023-03-27 19:40:49,090 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 19:40:50,654 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 19:40:52,189 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 19:40:53,962 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 19:40:56,552 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 19:40:56,683 - Failed Case -ERROR - Error occured.
+2023-03-27 19:42:11,457 - Failed Case -INFO - Landed on page: Home Page
+2023-03-27 19:42:12,978 - Failed Case -INFO - Searched the product - Gwyn Endurance Tee
+2023-03-27 19:42:14,602 - Failed Case -INFO - Landed on page: Search results for: 'Gwyn Endurance Tee'
+2023-03-27 19:42:18,556 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 19:42:20,510 - Failed Case -INFO - Landed on page: Gwyn Endurance Tee
+2023-03-27 19:42:20,608 - Failed Case -ERROR - Error occured.

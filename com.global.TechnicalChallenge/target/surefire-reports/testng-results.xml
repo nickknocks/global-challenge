@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-27T19:42:05 BST" name="Magento Test Suite" finished-at="2023-03-27T19:42:20 BST" duration-ms="15748">
+    <groups>
+    </groups>
+    <test started-at="2023-03-27T19:42:05 BST" name="Magento Test" finished-at="2023-03-27T19:42:20 BST" duration-ms="15748">
+      <class name="com.global.TechnicalChallenge.testCase.FunctionalTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.global.TechnicalChallenge.testCase.FunctionalTests@41ee392b]" started-at="2023-03-27T19:42:05 BST" name="setUp" finished-at="2023-03-27T19:42:05 BST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.global.TechnicalChallenge.testCase.FunctionalTests@41ee392b]" started-at="2023-03-27T19:42:05 BST" name="testAddToCart" finished-at="2023-03-27T19:42:20 BST" duration-ms="15612" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.1'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [D7C73460-3781-407A-A42D-F0D250CBBC16, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 16.3, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22D68, safari:platformVersion: 13.2.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: D7C73460-3781-407A-A42D-F0D250CBBC16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.1'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [D7C73460-3781-407A-A42D-F0D250CBBC16, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 16.3, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22D68, safari:platformVersion: 13.2.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: D7C73460-3781-407A-A42D-F0D250CBBC16
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.global.TechnicalChallenge.testCase.FunctionalTests@41ee392b]" started-at="2023-03-27T19:42:20 BST" name="tearDown" finished-at="2023-03-27T19:42:20 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.global.TechnicalChallenge.testCase.FunctionalTests -->
+    </test> <!-- Magento Test -->
+  </suite> <!-- Magento Test Suite -->
+</testng-results>
